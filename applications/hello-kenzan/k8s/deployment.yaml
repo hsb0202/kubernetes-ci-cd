@@ -7,6 +7,7 @@ metadata:
 spec:
   ports:
     - port: 80
+      nodePort:59193
       targetPort: 80
   selector:
     app: hello-kenzan
@@ -30,7 +31,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: 127.0.0.1:30400/hello-kenzan:$BUILD_TAG
+      - image: 10.108.27.114:5000/zzami-svc-user
         name: hello-kenzan
         ports:
         - containerPort: 80
