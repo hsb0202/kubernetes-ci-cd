@@ -7,7 +7,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      nodePort:59193
+      nodePort: 59193
       targetPort: 80
   selector:
     app: hello-kenzan
