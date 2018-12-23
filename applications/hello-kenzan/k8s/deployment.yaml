@@ -14,7 +14,7 @@ spec:
         tier: hello-kenzan
     spec:
       containers:
-      - image: hsb0202/zzami-svc-book
+      - image: 10.108.27.114:5000/zzami-svc-user
         name: hello-kenzan
         ports:
         - containerPort: 8070
