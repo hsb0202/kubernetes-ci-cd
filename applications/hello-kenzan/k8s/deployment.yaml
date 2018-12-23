@@ -17,5 +17,5 @@ spec:
       - image: hsb0202/zzami-svc-book
         name: hello-kenzan
         ports:
-        - containerPort: 80
+        - containerPort: 8070
           name: hello-kenzan
